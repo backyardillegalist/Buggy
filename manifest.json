@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Buggy",
+    "description": "Bypass paywall",
+    "version": "1.0",
+    "action":  {
+        "default_popup": "main.html"
+    },
+
+    "permissions": [
+        "declarativeNetRequestWithHostAccess",
+        "declarativeNetRequestFeedback",
+        "storage"
+    ],
+      "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "scripts/requestHandling.js"
+    }
+}
