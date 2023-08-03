@@ -6,4 +6,4 @@ Type in chrome://extensions url on chrome.
 Click load unpacked and choose the downloaded directory. Peace :) 
 
 This also remove some sec-ch headers.
-Turn off the extension if websites are not functioning properly.
+You can turn off the extension if websites are not functioning properly.
