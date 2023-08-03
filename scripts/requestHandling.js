@@ -36,8 +36,6 @@ chrome.runtime.onMessage.addListener((data) => {
     chrome.declarativeNetRequest.updateDynamicRules({
       removeRuleIds: [ID]
     }, setHeaders);
-
-    console.log("set");
   } else {
 
     // disable
