@@ -21,6 +21,8 @@ function setHeaders () {
         {"header": "user-agent", "operation": "set", "value": UAs[Math.floor(Math.random()*UAs.length)]},
         {"header": "accept", "operation": "set", "value": "text/plain,text/html,*/*"},
         {"header": "accept-encoding", "operation": "set", "value": "gzip,deflate,br"},
+        {"header": "connection", "operation": "set", "value": "keep-alive"},
+        {"header": "referrer", "operation": "set", "value": "google.com"},
         {"header": "cookie", "operation": "remove"},
         {"header": "cache-control", "operation": "remove"},
         {"header": "content-length", "operation": "remove"},
