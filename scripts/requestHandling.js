@@ -20,7 +20,7 @@ function setHeaders () {
       "requestHeaders": [
         {"header": "user-agent", "operation": "set", "value": UAs[Math.floor(Math.random()*UAs.length)]},
         {"header": "cookie", "operation": "remove"},
-        {"header": "sec-ch-ua-ua", "operation": "remove"},
+        {"header": "sec-ch-ua", "operation": "remove"},
         {"header": "sec-ch-ua-platform", "operation": "remove"},
         {"header": "sec-ch-ua-platform-version", "operation": "remove"},
       
